@@ -77,7 +77,7 @@ export default class BigChart extends Component {
         <Line
           data={this.state.data}
           options={this.state.options}
-          height="70px"
+          // height="70px"
         />
       </div>
     );

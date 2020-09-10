@@ -15,15 +15,21 @@ export default class Navbar extends Component {
           <Menu.Item key="1">
             <i className="fas fa-search "></i>
           </Menu.Item>
-          <SubMenu title={<i className="fas fa-bell"></i>}>
-            <Menu.Item key="2">Mike John responded to your email</Menu.Item>
+
+          <SubMenu
+            title={<i className="fas fa-bell"></i>}
+            aria-label="notifications"
+          >
+            <Menu.Item aria-label="notifications" key="2">
+              Mike John responded to your email
+            </Menu.Item>
             <Menu.Item key="3">You have 5 more tasks</Menu.Item>
             <Menu.Item key="4">You friend Michael is in town</Menu.Item>
             <Menu.Item key="5">Another notifications</Menu.Item>
             <Menu.Item key="6">Another one</Menu.Item>
           </SubMenu>
 
-          <SubMenu title={<Avatar src={anime} />}>
+          <SubMenu title={<Avatar src={anime} alt="avatar" />}>
             <Menu.Item key="7">Profile</Menu.Item>
             <Menu.Item key="8">Settings</Menu.Item>
 

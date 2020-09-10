@@ -9,10 +9,10 @@ export default class Sidebar extends Component {
     return (
       <div className="sidebar">
         <div className="logo">
-          <NavLink to="" className="first-word">
+          <NavLink to="/" className="first-word">
             CT
           </NavLink>
-          <NavLink to="">CREATIVE TIM</NavLink>
+          <NavLink to="/">CREATIVE TIM</NavLink>
         </div>
         <Divider className="divider" />
         <Menu

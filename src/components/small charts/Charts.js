@@ -80,7 +80,7 @@ export default class Charts extends Component {
               <Line
                 data={this.state.data}
                 options={{ responsive: true, legend: false }}
-                height="160px"
+                // height="160px"
               />
             </div>
           </Col>
@@ -102,7 +102,7 @@ export default class Charts extends Component {
               <Bar
                 data={this.state.data2}
                 options={{ responsive: true, legend: false }}
-                height="160px"
+                // height="160px"
               />
             </div>
           </Col>
@@ -123,7 +123,7 @@ export default class Charts extends Component {
               <Line
                 data={this.state.data3}
                 options={{ responsive: true, legend: false }}
-                height="160px"
+                // height="160px"
               />
             </div>
           </Col>
