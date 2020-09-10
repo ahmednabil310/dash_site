@@ -1,20 +1,25 @@
 .sidebar {
-  min-width: 250px;
   background-color: var(--main-side) !important;
   border-radius: 5px;
-  margin-right: 20px;
-  height: 100%;
+  z-index: 99;
+  position: sticky;
+  left: 0;
+  top: 0;
+  height: 100vh;
 }
 
 .sidebar ul {
   background-color: var(--main-side) !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .sidebar i {
   padding-right: 10px;
 }
 .sidebar li {
   margin-top: 40px;
-  padding-left: 30px;
 }
 .sidebar a {
   color: hsla(0, 0%, 100%, 0.8);
@@ -37,22 +42,52 @@
   color: white !important;
 }
 
-.sidebar .ant-menu-item-selected::before {
-  content: "";
-  position: absolute;
-  left: 4px;
-  top: 17px;
-  height: 7px;
-  width: 7px;
-  border: 1px solid white;
-  border-width: 2px 2px 0 0;
-  transform: rotate(45deg);
+@media only screen and (min-width: 993px) {
+  .sidebar .ant-menu-item-selected::before {
+    content: "";
+    position: absolute;
+    left: 4px;
+    top: 17px;
+    height: 7px;
+    width: 7px;
+    border: 1px solid white;
+    border-width: 2px 2px 0 0;
+    transform: rotate(45deg);
+  }
 }
 .divider {
   border-top: 1px solid white;
   padding-left: 10px !important;
 }
-@media only screen and (max-width: 994px) {
+
+@media only screen and (max-width: 992px) {
+  .sidebar span {
+    display: none;
+  }
+
+  .sidebar li {
+    display: flex;
+    justify-content: center;
+  }
+
+  .sidebar li i {
+    font-size: 40px;
+  }
+  .sidebar .logo {
+    display: none;
+  }
+  .sidebar .divider {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .sidebar li i {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
   .sidebar {
     display: none;
   }

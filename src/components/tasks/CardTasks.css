@@ -9,6 +9,7 @@
   color: hsla(0, 0%, 100%, 0.8);
   margin-bottom: 30px;
 }
+
 .card-header h4 {
   color: hsla(0, 0%, 100%, 0.8);
   display: inline-block;
@@ -51,4 +52,7 @@ td i:hover {
 td p {
   padding-left: 15px;
   padding-right: 15px;
+}
+.table {
+  margin: 0 !important;
 }
