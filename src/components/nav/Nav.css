@@ -1,0 +1,30 @@
+.ant-layout-header {
+  padding: 0 !important;
+}
+.nav a {
+  color: white;
+  font-size: 1rem;
+}
+.nav {
+  display: flex;
+  background-color: var(--main-color);
+  margin-bottom: 20px;
+}
+.nav .ant-menu.ant-menu-dark .ant-menu-item-selected {
+  background-color: var(--main-color) !important;
+}
+.nav ul {
+  margin-left: auto;
+  background-color: var(--main-color) !important;
+}
+.nav ul li:hover {
+  background-color: var(--main-color) !important;
+  color: white;
+}
+.ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+  background-color: var(--main-color) !important;
+}
+.nav i {
+  color: white;
+  font-size: 20px;
+}

@@ -1,0 +1,38 @@
+.chart {
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+.card-titlee p {
+  color: #9a9a9a;
+  font-weight: 300;
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+.card-titlee h3 {
+  color: white;
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+}
+.card-titlee i {
+  padding-right: 10px;
+}
+.chart .fa-bell {
+  color: #d346b1 !important;
+}
+.fa-truck {
+  color: #1d8cf8 !important;
+}
+.fa-clipboard-check {
+  color: #00f2c3 !important;
+}
+.container-small {
+  background-color: #27293d;
+  margin-right: 10px;
+  padding: 15px;
+  margin-top: 15px;
+}
+.container-small2 {
+  background-color: #27293d;
+  padding: 10px;
+  margin-top: 15px;
+}
