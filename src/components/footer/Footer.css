@@ -1,6 +1,5 @@
 .footer {
   color: White !important;
-
   margin-top: 50px;
   margin-bottom: 30px;
 }
@@ -9,20 +8,25 @@
 }
 .footer ul {
   list-style: none;
+  padding: 0 !important;
 }
-.footer li {
+.footer .nav-item {
   color: white !important ;
   margin-right: 10px;
-
   text-transform: uppercase;
 }
 .footer li a {
   color: white !important ;
 }
 .copyright a {
-  color: #ba54f5;
+  color: var(--main-side);
   margin: 0 3px;
 }
 .copyright a:hover {
   color: var(--main-side);
+}
+@media only screen and (max-width: 730px) {
+  .ant-row {
+    justify-content: center;
+  }
 }

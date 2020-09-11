@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "antd/dist/antd.css";
 import { Menu, Divider } from "antd";
 import "./Sidebar.css";
-
 import { NavLink } from "react-router-dom";
 
 export default class Sidebar extends Component {

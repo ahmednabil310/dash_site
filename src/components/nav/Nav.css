@@ -17,6 +17,7 @@
   margin-left: auto;
   background-color: var(--main-color) !important;
 }
+
 .nav ul li:hover {
   background-color: var(--main-color) !important;
   color: white;
@@ -28,7 +29,10 @@
   color: white;
   font-size: 20px;
 }
-.ul-container {
+.nav .search i {
+  margin-left: 10px;
+}
+.nav .ul-container {
   display: flex;
 }
 .navbar-toggler {
@@ -38,4 +42,28 @@
   background-color: transparent;
   border: 0.0625rem solid transparent;
   border-radius: 0.25rem;
+}
+input {
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  width: 50% !important;
+  /* left: 390px; */
+  animation-name: example;
+  animation-duration: 2s;
+}
+.hidden {
+  display: none !important;
+}
+.ant-input-lg {
+  padding: 19.5px 23px;
+  font-size: 19px;
+}
+.input-container {
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  /* top: 100px !important; */
+  top: 0;
+  z-index: 1;
 }

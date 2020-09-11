@@ -79,6 +79,7 @@ export default class BigChart extends Component {
           options={this.state.options}
           // height="70px"
         />
+        <canvas id="myChart"></canvas>
       </div>
     );
   }

@@ -40,7 +40,6 @@ class App extends Component {
                 <Charts />
                 <CardTasks />
                 <FooterCopy />
-                {/* <Bottombar /> */}
               </Col>
             </Row>
           )}
