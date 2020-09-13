@@ -32,7 +32,7 @@ export default class FooterCopy extends Component {
           </ul>
 
           <div className="copyright">
-            All rights reserved to <i className="fas fa-heart"></i>
+            All rights reserved to
             <a
               href="https://demos.creative-tim.com/black-dashboard/examples/dashboard.html"
               target="_blank"
