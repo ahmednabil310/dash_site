@@ -76,7 +76,7 @@ export default class BigChart extends Component {
         </div>
         <Line
           data={this.state.data}
-          options={this.state.options}
+          options={{ responsive: true, legend: false }}
           // height="70px"
         />
         <canvas id="myChart"></canvas>

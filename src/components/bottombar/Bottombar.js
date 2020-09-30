@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 export default class Bottombar extends Component {
   render() {
     return (
-      <section className="bottom-bar">
+      <section className="bottom-bar container-fluid">
         <Menu
           defaultSelectedKeys={["1"]}
           defaultOpenKeys={["sub1"]}
